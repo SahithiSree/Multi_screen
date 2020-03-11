@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorAccent"
+tools:context=".MainActivity">
+
+<EditText
+    android:id="@+id/number"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="ENTER ANY NUMBER"
+    android:inputType="number"
+    android:backgroundTint="#000"
+    android:textColorHint="#fff"
+    android:layout_marginBottom="150dp"
+    android:gravity="center"
+    android:layout_marginTop="250dp"
+    android:textSize="30dp"
+    android:background="#fff" />
+
+<Button
+    android:id="@+id/GUESS"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/number"
+    android:textSize="30dp"
+    android:text="GUESS"
+    android:onClick="GUESS"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="400dp"
+    android:padding="10dp"
+    android:layout_centerInParent="true"
+    />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="160dp"
+    android:id="@+id/logout"
+    android:layout_marginTop="500dp"
+    android:textColor="#fff"
+    android:layout_alignParentTop="true"
+    android:background="#000"
+    android:text="LOGOUT" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GUESS NUMBER</string>
+
+    <string name="cityname">CHOOSE CITY</string>
+
+    <string-array name="city_array">
+
+        <item>CHOOSE A  CITY</item>
+        <item>Hyderabad</item>
+        <item>Warangal</item>
+        <item>Khammam</item>
+        <item>Karimnagar</item>
+
+    </string-array>
+
+    <string name="Email">Email</string>
+    <string name="city">city</string>
+
+</resources>
